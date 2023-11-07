@@ -1,0 +1,9 @@
+button{
+    background-color: black;
+    color: white;
+}
+ul li a {
+    list-style: none;
+    text-decoration: none;
+}
+

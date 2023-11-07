@@ -5,9 +5,130 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+ 
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+body{
+  background-color:#343f4f;
+}
+ 
+.container{
+  width: 100px;
+  height: 150px;
+  background-color: black;
+}
+.image{
+  display: grid;
+      place-items: center;
+}
+
+
+
+img{
+  width: 400px;
+  height: 200px;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  display: grid;
+  place-items: center;
+  box-shadow: 10px 10px 5px #171515;
+}
+img:hover{
+  opacity: 0.99;
+  transition: all ease-in 0.4s;
+  transform: scale(1.2);
+ 
+
+
+}
+h2{
+  background-color: rgb(25, 75, 66);
+    margin-top: auto;
+    font-family: BebasNeue;
+    color: #d5dbdb;
+    font-size: 50px;
+    border-top: 3px dashed #777878;
+    border-bottom: 3px dashed #777878;
+    line-height: 1;
+    margin: 10px;
+    clear: both;
+    padding-top: 8px;
+    text-align: center;
+}
+h2:hover{
+  color: rgb(255, 255, 255);
+  background-color: #030303;
+  cursor: pointer;
+  transition: all ease-in 0.4s;
+}
+ Link:hover {
+  background-color: #000000;
+ }
+ul li{
+  color: white;
+}
+.wrapper{
+  display: inline-flex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-height: 100vh;
+  padding-top: 150px ;
+}
+.wrapper .static-text{
+  color: white;
+  font-size: 60px;
+  font-weight: 400px;
+  padding-bottom: 10px;
+}
+.wrapper .dynamic-text{
+  margin-left: 15px;
+  height: 90px;
+  line-height:90px ;
+  overflow: hidden;
+
+}
+.dynamic-text li{
+  color: #fc6060;
+  top: 0;
+ list-style: none;
+ font-size: 60px;
+ font-weight: 500; 
+ position: relative;
+ animation: slide 6s steps(4) infinite;
+}
+.dynamic-text li span{
+  position: relative;
+
+}
+.dynamic-text li span::after{
+  content: "";
+  left: 0;
+  top: 0;
+  position: absolute;
+  height: 100%;
+  background:#343f4f ;
+  width: 100%;
+  border-left: 2px solid #fC6060;
+  animation: typing 1.5s steps(10) infinite;
+
+}
+@keyframes typing {
+  100%{
+     left: 100%;
+
+    
+  }
+  
+}
+@keyframes slide {
+  100%{
+    top: -360px;
+  }
+  
 }

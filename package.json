@@ -6,9 +6,16 @@
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "audit": "^0.0.6",
+    "bootstrap": "^5.3.1",
+    "fix": "^0.0.6",
+    "fund": "^1.0.0",
+    "gasp": "^0.0.2",
+    "gsap": "^3.12.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-scripts": "5.0.1",
+    "React-router-dom": "npm:react-router-dom@^6.15.0",
+    "react-scripts": "^5.0.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -34,5 +41,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "react-router-dom": "^6.15.0"
   }
 }

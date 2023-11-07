@@ -1,0 +1,63 @@
+// import React from 'react'
+// import Navbar from './Navbar'
+// import {
+//   createBrowserRouter,
+//   RouterProvider,
+//   Outlet
+// } from "react-router-dom";
+// import Contact from './Contact';
+// import About from './About';
+// import Home from './Home'
+
+
+
+
+
+// const NavbarWrapper = () =>{
+//   return (
+//   <div>
+//   <RouterProvider router={router} />
+//       <Navbar />
+//       <Outlet/>
+//   </div>
+//   )
+// };
+
+
+// const router = createBrowserRouter([
+//   {
+//       path: "/", 
+//       element: <NavbarWrapper/>,
+//       children:[
+//            {
+//                path: "/", // yes, again
+//                element: <Home/>
+//            },
+//            {
+//                path: "/about",
+//                element: <About/>
+//            },
+//            {
+//                path: "/contact",
+//                element: <Contact />
+//            },
+        
+//       ]
+//   }
+// ])
+
+
+
+// const App = () => {
+  
+//   return (
+//     <div>
+   
+//      <Navbar />
+//     </div>
+//   )
+// }
+
+
+
+// export default App;
